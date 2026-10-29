@@ -1,26 +1,23 @@
-# Entornos virtuales de Python
-
+# Entornos virtuales
 .venv/
 venv/
 env/
 
-# Archivos temporales y caché
+# Jupyter Notebook
+.ipynb_checkpoints/
 
-**pycache**/
+# Archivos temporales de Python
+__pycache__/
 *.py[cod]
-.pytest_cache/
 
-# Configuración local y variables de entorno
-
+# Variables de entorno y secretos
 .env
 .env.*
 
-# Configuración de editores
-
+# Editores
 .vscode/
 .idea/
 
 # Archivos del sistema
-
 .DS_Store
 Thumbs.db
